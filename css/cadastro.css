@@ -94,3 +94,8 @@ label {
   border-radius: 6px;
   text-decoration: none;
 }
+
+.voltar:hover {
+    box-shadow: 0 0 13px rgba(255, 255, 255, 0.733); 
+    transform: scale(1.05);
+}

@@ -54,16 +54,18 @@ input[type="text"],
 input[type="email"],
 input[type="date"],
 input[type="number"],
-input[type="time"]    {
+input[type="time"] {
     padding: 0.5rem;
     margin: 5px;
     width: 100%;
     max-width: 600px;
 }
-label{
+
+label {
     padding: 0.5rem;
     color: aliceblue;
 }
+
 .opcao {
     padding: 0.5rem;
     margin: 5px;
@@ -90,7 +92,7 @@ label{
 }
 
 .btn:hover {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.336); 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.336);
     transform: scale(1.05);
 }
 
@@ -99,11 +101,16 @@ label{
 
 
 .voltar {
-  position: absolute;
-  left: 20px;
-  background-color: #ad0d0d;
-  color: white;
-  padding: 7px 17px;
-  border-radius: 6px;
-  text-decoration: none;
+    position: absolute;
+    left: 20px;
+    background-color: #ad0d0d;
+    color: white;
+    padding: 7px 17px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    box-shadow: 0 0 13px rgba(255, 255, 255, 0.733);
+    transform: scale(1.05);
 }
