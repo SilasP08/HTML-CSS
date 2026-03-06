@@ -25,6 +25,10 @@ header {
     width: 100%;
 }
 
+.redi {
+    text-decoration: none;
+    color: aliceblue;
+}
 
 .bem-vindo {
     width: 100%;
